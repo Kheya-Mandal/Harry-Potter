@@ -60,7 +60,7 @@ function setup() {
   World.add(world, harryBody);
 
   string = new String(harryBody);
-
+  console.log("string Body", string);
   symbGroup = new Group();
   spawnSymb();
 }
@@ -69,6 +69,9 @@ function draw() {
 
   harry.x = harryBody.position.x;
   harry.y = harryBody.position.y;
+
+  if (harryBody.c) {
+  }
 
   drawSprites();
 }
