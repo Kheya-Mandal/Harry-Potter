@@ -27,7 +27,7 @@ var score;
 
 function preload() {
   bgImg = loadImage("images/back1.png.jpg");
-  harryImg = loadImage("images/harry.png");
+  harryImg = loadImage("images/Harry.png");
   symb1Img = loadImage("images/1.png");
   symb2Img = loadImage("images/2.png");
   symb3Img = loadImage("images/3.png");
